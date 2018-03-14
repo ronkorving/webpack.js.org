@@ -29,7 +29,7 @@ The values will be inlined into the code allowing a minification pass to remove 
 new webpack.DefinePlugin({
   PRODUCTION: JSON.stringify(true),
   VERSION: JSON.stringify("5fa3b9"),
-  BROWSER_SUPPORTS_HTML5: true,
+  BROWSER_SUPPORTS_HTML5: "true",
   TWO: "1+1",
   "typeof window": JSON.stringify("object")
 })
